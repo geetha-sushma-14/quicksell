@@ -1,0 +1,35 @@
+.card{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.ticket-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ticket-tag{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px solid lightgrey;
+    display: flex;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-top: 3px;
+    margin-right: 5px;
+}

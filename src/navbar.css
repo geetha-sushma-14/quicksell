@@ -1,0 +1,29 @@
+.navigation-bar{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-button{
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.drop-down{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 5px;
+}
